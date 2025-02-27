@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;  /* Full screen height */
-  background-color: #ffffff; /* Optional: Background color */
+  background-color: #f8f9fa; /* Optional: Background color */
   margin: 0;
 }
 
@@ -24,10 +24,10 @@
 }
 
 .nav-button {
-  padding: 5px 15px;  /* Adjusted padding for a smaller button */
-  font-size: 0.8rem;  
+  padding: 8px 18px;  /* Adjusted padding for a smaller button */
+  font-size: 0.8rem;  /* Smaller font size */
   color: #333;  /* Dark text color */
-  background: rgba(211, 211, 211, 0.915);  /* Very light grey translucent background */
+  background: rgba(234, 234, 234, 0.8);  /* Very pale neutral cream background */
   border: none;
   border-radius: 30px;  /* Rounded corners */
   cursor: pointer;
@@ -36,7 +36,7 @@
 }
 
 .nav-button:hover {
-  background: rgba(169, 169, 169, 0.8);  /* Slightly darker grey background on hover */
+  background: rgba(234, 234, 234, 1);  /* Slightly darker neutral tone on hover */
   transform: scale(1.05);  /* Slightly enlarge on hover */
 }
 
