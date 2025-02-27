@@ -20,11 +20,11 @@
 .nav-buttons {
   display: flex;
   justify-content: center;
-  gap: 2rem;  /* Space between the buttons */
+  gap: 1.5rem;  /* Space between the buttons */
 }
 
 .nav-button {
-  padding: 10px 20px;  /* Adjusted padding for a smaller button */
+  padding: 5px 15px;  /* Adjusted padding for a smaller button */
   font-size: 0.8rem;  
   color: #333;  /* Dark text color */
   background: rgba(211, 211, 211, 0.915);  /* Very light grey translucent background */
