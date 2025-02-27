@@ -8,7 +8,6 @@ function NavBarComp() {
           CRYSTAL YE
         </h1>
         <div className="nav-buttons">
-          <button className="nav-button" onClick={() => window.location.href = '#home'}>HOME</button>
           <button className="nav-button" onClick={() => window.location.href = '#about'}>ABOUT</button>
           <button className="nav-button" onClick={() => window.location.href = '#projects'}>PROJECTS</button>
           <button className="nav-button" onClick={() => window.location.href = '#contact'}>CONTACT</button>
