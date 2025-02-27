@@ -1,19 +1,45 @@
-body {
+/* Center everything on the screen */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  /* Full screen height */
+  background-color: #ffffff; /* Optional: Background color */
   margin: 0;
-  font-family: 'SSENSE', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+.centered-items {
+  text-align: center; /* Center text horizontally */
 }
 
-/* Remove outline and border from Navbar Toggle Button on hover and focus */
-.navbar-toggler:focus, .navbar-toggler:hover {
-  outline: none;
-  box-shadow: none;
+.brand-name {
+  font-size: 2.5rem;  /* Larger font size for brand */
+  margin-bottom: 2rem;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;  /* Space between the buttons */
+}
+
+.nav-button {
+  padding: 10px 20px;  /* Adjusted padding for a smaller button */
+  font-size: 0.8rem;  
+  color: #333;  /* Dark text color */
+  background: rgba(211, 211, 211, 0.915);  /* Very light grey translucent background */
   border: none;
+  border-radius: 30px;  /* Rounded corners */
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.2); /* Optional shadow for a slight 3D effect */
+}
+
+.nav-button:hover {
+  background: rgba(169, 169, 169, 0.8);  /* Slightly darker grey background on hover */
+  transform: scale(1.05);  /* Slightly enlarge on hover */
+}
+
+.nav-button:focus {
+  outline: none;  /* Remove focus outline */
 }
